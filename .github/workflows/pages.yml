@@ -1,5 +1,12 @@
-on: push
-name: Generate TypeScript Models definitions from Eloquent
+name: Github Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - develop
+      
 jobs:
     build:
     runs-on: ubuntu-latest

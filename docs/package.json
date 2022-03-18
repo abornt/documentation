@@ -1,0 +1,19 @@
+{
+  "name": "@escolalms/docs",
+  "version": "0.0.1",
+  "description": "Technical documentation of Wellms ",
+  "main": "index.js",
+  "authors": {
+    "name": "Mateusz Wojczal ",
+    "email": "mateusz@escolasoft.com"
+  },
+  "repository": "https://github.com/EscolaLMS/documentation/",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

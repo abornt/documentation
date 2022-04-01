@@ -280,6 +280,7 @@ module.exports = {
             ["lorem2", "Admin panel customization"],
             ["lorem3", "Developing packages"],
             ["lorem4", "Contributing"],
+            ["lorem5", "Permissions"]
           ],
         },
       ],

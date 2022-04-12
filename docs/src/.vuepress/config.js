@@ -200,6 +200,8 @@ module.exports = {
 
             ["lorem20", "Mattermost."],
 
+            ["model-fields", "Model Fields. Extra attributes to any model"],
+
             ["lorem21", "Notifications."],
 
             ["lorem22", "Pages. Simple CMS."],
@@ -280,7 +282,7 @@ module.exports = {
             ["lorem2", "Admin panel customization"],
             ["lorem3", "Developing packages"],
             ["lorem4", "Contributing"],
-            ["lorem5", "Permissions"]
+            ["lorem5", "Permissions"],
           ],
         },
       ],

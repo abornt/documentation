@@ -31,10 +31,10 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
+    repo: "EscolaLMS/documentation",
+    editLinks: true,
     docsDir: "",
-    editLinkText: "",
+    editLinkText: "Suggest changes on this page",
     lastUpdated: false,
     nav: [
       {

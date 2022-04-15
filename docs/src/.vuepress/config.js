@@ -176,7 +176,7 @@ module.exports = {
             ],
 
             [
-              "lorem11",
+              "fakturownia",
               "Fakturownia-Integration. Generates Invoice from Fakturowania",
             ],
 
@@ -189,7 +189,7 @@ module.exports = {
               "Images. Responsive and compressions processing module",
             ],
 
-            ["lorem15", "Invoices generation."],
+            ["invoices", "Invoices generation."],
 
             ["lorem16", "Jitsi."],
 
@@ -214,7 +214,7 @@ module.exports = {
 
             ["lorem24", "Permissions and Roles."],
 
-            ["lorem25", "Questionnaire. Answers & Reports"],
+            ["questionnaire", "Questionnaire. Answers & Reports"],
 
             ["lorem26", "Reports. Courses reports."],
 

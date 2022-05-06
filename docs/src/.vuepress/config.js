@@ -227,7 +227,7 @@ module.exports = {
 
             ["lorem29", "Stationary Events."],
 
-            ["lorem30", "Tags. Tagging for any Module"],
+            ["tags", "Tags. Tagging for any Module"],
 
             ["lorem31", "Templates."],
 

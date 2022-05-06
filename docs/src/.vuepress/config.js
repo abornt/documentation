@@ -157,7 +157,7 @@ module.exports = {
             ["lorem5", "Categories"],
 
             [
-              "lorem6",
+              "consultations",
               "Consultations. One to one conversation package with `jitsi`",
             ],
 
@@ -266,8 +266,12 @@ module.exports = {
             ],
 
             [
-              "lorem40",
+              "webinar",
               "Webinar. Live video stream with `Jitsi` and `YouTube`",
+            ],
+            [
+              "youtube",
+              "Youtube. Package Youtube integration",
             ],
           ],
         },

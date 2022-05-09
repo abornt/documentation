@@ -163,7 +163,7 @@ module.exports = {
 
             ["lorem7", "Core. Core Package "],
 
-            ["lorem8", "Courses. and content package"],
+            ["courses", "Courses. and content package"],
 
             [
               "lorem9",

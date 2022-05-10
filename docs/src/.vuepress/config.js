@@ -252,7 +252,7 @@ module.exports = {
             ],
 
             [
-              "lorem36",
+              "topic-types",
               "Topic Types. List of possible Topic Types for Course content",
             ],
 

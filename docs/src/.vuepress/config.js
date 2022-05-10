@@ -163,7 +163,7 @@ module.exports = {
 
             ["lorem7", "Core. Core Package "],
 
-            ["lorem8", "Courses. and content package"],
+            ["courses", "Courses. and content package"],
 
             [
               "lorem9",
@@ -252,7 +252,7 @@ module.exports = {
             ],
 
             [
-              "lorem36",
+              "topic-types",
               "Topic Types. List of possible Topic Types for Course content",
             ],
 

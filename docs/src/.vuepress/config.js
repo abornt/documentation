@@ -154,7 +154,7 @@ module.exports = {
 
             ["lorem4", "Cart. General shop management."],
 
-            ["lorem5", "Categories"],
+            ["categories", "Categories"],
 
             [
               "consultations",

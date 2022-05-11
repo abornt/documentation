@@ -148,7 +148,7 @@ module.exports = {
             ],
 
             [
-              "lorem3",
+              "auth",
               "Auth. User authentication. Roles & Permission Management",
             ],
 
@@ -171,7 +171,7 @@ module.exports = {
             ],
 
             [
-              "lorem10",
+              "csv-users",
               "CSV-Users. Exporting and importing users in `.csv` format",
             ],
 
@@ -180,12 +180,15 @@ module.exports = {
               "Fakturownia-Integration. Generates Invoice from Fakturowania",
             ],
 
-            ["lorem12", "Files. Uploading, deleting and reusing files."],
+            [
+              "files",
+              "Files. Uploading, deleting and reusing files."
+            ],
 
             ["lorem13", "H5P Headless."],
 
             [
-              "lorem14",
+              "images",
               "Images. Responsive and compressions processing module",
             ],
 
@@ -197,9 +200,15 @@ module.exports = {
 
             ["lorem18", "LRS xAPI Learning Record Stores"],
 
-            ["lorem19", "MailerLite. Customized group for LMS events"],
+            [
+              "mailerlite",
+              "MailerLite. Customized group for LMS events"
+            ],
 
-            ["lorem20", "Mattermost."],
+            [
+              "mattermost",
+              "Mattermost."
+            ],
 
             ["model-fields", "Model Fields. Extra attributes to any model"],
 
@@ -225,7 +234,10 @@ module.exports = {
               "Settings. Additional global fields of various types and other package setup",
             ],
 
-            ["lorem29", "Stationary Events."],
+            [
+              "stationary-events",
+              "Stationary Events."
+            ],
 
             ["tags", "Tags. Tagging for any Module"],
 

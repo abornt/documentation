@@ -194,7 +194,7 @@ module.exports = {
 
             ["invoices", "Invoices generation."],
 
-            ["lorem16", "Jitsi."],
+            ["jitsi", "Jitsi."],
 
             ["lorem17", "Docker Images."],
 
@@ -212,7 +212,7 @@ module.exports = {
 
             ["model-fields", "Model Fields. Extra attributes to any model"],
 
-            ["lorem21", "Notifications."],
+            ["notifications", "Notifications."],
 
             ["lorem22", "Pages. Simple CMS."],
 

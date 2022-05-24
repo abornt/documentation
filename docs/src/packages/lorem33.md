@@ -1,39 +1,47 @@
-# Hello
+# Templates-Email
 
-## This is Lorem ipsum
+Package for email notifications with editable templates (for important user-related events)
 
-### And lolcat bible
+[![codecov](https://codecov.io/gh/EscolaLMS/Templates-Email/branch/main/graph/badge.svg?token=O91FHNKI6R)](https://codecov.io/gh/EscolaLMS/Templates-Email)
+[![Tests PHPUnit in environments](https://github.com/EscolaLMS/Templates-Email/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Templates-Email/actions/workflows/test.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/7d61484f7610611183ff/maintainability)](https://codeclimate.com/github/EscolaLMS/Templates-Email/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7d61484f7610611183ff/test_coverage)](https://codeclimate.com/github/EscolaLMS/Templates-Email/test_coverage)
+[![downloads](https://img.shields.io/packagist/dt/escolalms/templates-email)](https://packagist.org/packages/escolalms/templates-email)
+[![downloads](https://img.shields.io/packagist/v/escolalms/templates-email)](https://packagist.org/packages/escolalms/templates-email)
+[![downloads](https://img.shields.io/packagist/l/escolalms/templates-email)](https://packagist.org/packages/escolalms/templates-email)
 
-Boreded Ceiling Cat makinkgz Urf n stuffs
+## What does it do
 
-![Boreded Ceiling Cat makinkgz Urf n stuffs!](https://i.pinimg.com/originals/70/0e/c3/700ec32746a59f84efd263ba9ca5def5.jpg "Boreded Ceiling Cat makinkgz Urf n stuffs")
+This package allows you to create email notifications for events emitted in Laravel app.
 
-1 Oh hai. In teh beginnin Ceiling Cat maded teh skiez An da Urfs, but he did not eated dem.
+Each notification is created as a class describing available variables that can be used in Template (which will be created in database and editable through admin panel). This class must be registered using Template facade from Template package, where you specify which Event it is associated with and which Channel it is sent through (e.g. Email channel when defined in this package).
 
-2 Da Urfs no had shapez An haded dark face, An Ceiling Cat rode invisible bike over teh waterz.
+## Installing
 
-3 At start, no has lyte. An Ceiling Cat sayz, i can haz lite? An lite wuz.4 An Ceiling Cat sawed teh lite, to seez stuffs, An splitted teh lite from dark but taht wuz ok cuz kittehs can see in teh dark An not tripz over nethin.5 An Ceiling Cat sayed light Day An dark no Day. It were FURST!!!1
+- `composer require escolalms/templates-email`
+## Template used
 
-6 An Ceiling Cat sayed, im in ur waterz makin a ceiling. But he no yet make a ur. An he maded a hole in teh Ceiling.7 An Ceiling Cat doed teh skiez with waterz down An waterz up. It happen.8 An Ceiling Cat sayed, i can has teh firmmint wich iz funny bibel naim 4 ceiling, so wuz teh twoth day.
+1. Create event which triggers sending email using specified template. This event must implement method getUser() returning User model from LMS Core package.
+2. Create Class defining template variables, which you will use in email notification,
+3. Associate your class describing template variables with event and channel through which notifications should be sent. Use `EscolaLms\Templates\Facades\Template::register(Event class, EscolaLms\TemplatesEmail\Core\EmailChannel::class, Variable class);`
+4. Register template in db for admin panel or used `/api/admin/templates`, better described in [Template package](https://github.com/EscolaLMS/Templates)
 
-9 An Ceiling Cat gotted all teh waterz in ur base, An Ceiling Cat hadz dry placez cuz kittehs DO NOT WANT get wet.10 An Ceiling Cat called no waterz urth and waters oshun. Iz good.
+## Tests
 
-11 An Ceiling Cat sayed, DO WANT grass! so tehr wuz seedz An stufs, An fruitzors An vegbatels. An a Corm. It happen.12 An Ceiling Cat sawed that weedz ish good, so, letz there be weedz.13 An so teh threeth day jazzhands.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\TemplatesEmail\\Tests'` to run tests. See [tests](tests) folder as it contains a basic implementation of Variable (or Template description) class with minimal customisation - a quite good starting point for creating your own.
 
-14 An Ceiling Cat sayed, i can has lightz in the skiez for splittin day An no day.15 It happen, lights everwear, like christmass, srsly.16 An Ceiling Cat doeth two grate lightz, teh most big for day, teh other for no day.17 An Ceiling Cat screw tehm on skiez, with big nails An stuff, to lite teh Urfs.18 An tehy rulez day An night. Ceiling Cat sawed. Iz good.19 An so teh furth day w00t.
+Test details [![codecov](https://codecov.io/gh/EscolaLMS/Templates-Email/branch/main/graph/badge.svg?token=O91FHNKI6R)](https://codecov.io/gh/EscolaLMS/Templates-Email) [![Tests PHPUnit in environments](https://github.com/EscolaLMS/Templates-Email/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Templates-Email/actions/workflows/test.yml)
 
-20 An Ceiling Cat sayed, waterz bring me phishes, An burds, so kittehs can eat dem. But Ceiling Cat no eated dem.21 An Ceiling Cat maed big fishies An see monstrs, which wuz like big cows, except they no mood, An other stuffs dat mooves, An Ceiling Cat sawed iz good.22 An Ceiling Cat sed O hai, make bebehs kthx. An dont worry i wont watch u secksy, i not that kynd uf kitteh.23 An so teh...fith day. Ceiling Cat taek a wile 2 cawnt.
+### Admin panel
 
-24 An Ceiling Cat sayed, i can has MOAR living stuff, mooes, An creepie tings, An otehr aminals. It happen so tehre.25 An Ceiling Cat doed moar living stuff, mooes, An creepies, An otehr animuls, An did not eated tehm.
+**Left menu**
 
-26 An Ceiling Cat sayed, letz us do peeps like uz, becuz we ish teh qte, An let min p0wnz0r becuz tehy has can openers.
+![Menu](docs/templates-email/menu.png "Menu")
 
-27 So Ceiling Cat createded teh peeps taht waz like him, can has can openers he maed tehm, min An womin wuz maeded, but he did not eated tehm.
+**List of templates**
 
-28 An Ceiling Cat sed them O hai maek bebehs kthx, An p0wn teh waterz, no waterz An teh firmmint, An evry stufs.
+![List of templates](docs/templates-email/list.png "List of templates")
 
-29 An Ceiling Cat sayed, Beholdt, the Urfs, I has it, An I has not eated it.30 For evry createded stufs tehre are the fuudz, to the burdies, teh creepiez, An teh mooes, so tehre. It happen. Iz good.
+**Creating/editing template**
 
-31 An Ceiling Cat sayed, Beholdt, teh good enouf for releaze as version 0.8a. kthxbai.
-
-##
+![Creating/editing template](docs/templates-email/edit.png "Creating or editing template")

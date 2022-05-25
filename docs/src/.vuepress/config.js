@@ -83,7 +83,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Introduction"],
-            ["lorem1", "Quickstart Guide"],
+            ["guide", "Quickstart Guide"],
             ["lorem2", "Installation"],
             ["lorem4", "Headless Architecture"],
             ["lorem5", "Help & Support"],
@@ -180,17 +180,11 @@ module.exports = {
               "Fakturownia-Integration. Generates Invoice from Fakturowania",
             ],
 
-            [
-              "files",
-              "Files. Uploading, deleting and reusing files."
-            ],
+            ["files", "Files. Uploading, deleting and reusing files."],
 
             ["lorem13", "H5P Headless."],
 
-            [
-              "images",
-              "Images. Responsive and compressions processing module",
-            ],
+            ["images", "Images. Responsive and compressions processing module"],
 
             ["invoices", "Invoices generation."],
 
@@ -200,15 +194,9 @@ module.exports = {
 
             ["lorem18", "LRS xAPI Learning Record Stores"],
 
-            [
-              "mailerlite",
-              "MailerLite. Customized group for LMS events"
-            ],
+            ["mailerlite", "MailerLite. Customized group for LMS events"],
 
-            [
-              "mattermost",
-              "Mattermost."
-            ],
+            ["mattermost", "Mattermost."],
 
             ["model-fields", "Model Fields. Extra attributes to any model"],
 
@@ -234,10 +222,7 @@ module.exports = {
               "Settings. Additional global fields of various types and other package setup",
             ],
 
-            [
-              "stationary-events",
-              "Stationary Events."
-            ],
+            ["stationary-events", "Stationary Events."],
 
             ["tags", "Tags. Tagging for any Module"],
 
@@ -281,10 +266,7 @@ module.exports = {
               "webinar",
               "Webinar. Live video stream with `Jitsi` and `YouTube`",
             ],
-            [
-              "youtube",
-              "Youtube. Package Youtube integration",
-            ],
+            ["youtube", "Youtube. Package Youtube integration"],
           ],
         },
       ],

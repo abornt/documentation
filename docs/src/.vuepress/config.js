@@ -152,6 +152,11 @@ module.exports = {
               "Auth. User authentication. Roles & Permission Management",
             ],
 
+            [
+              "assign-without-account",
+              "Package enabling accessing courses and products without having account.",
+            ],
+
             ["cart", "Cart. General shop management."],
 
             ["categories", "Categories"],
@@ -166,7 +171,7 @@ module.exports = {
             ["courses", "Courses. and content package"],
 
             [
-              "lorem9",
+              "courses-import-export",
               "Courses Import Export. ZIP package and duplicate feature.",
             ],
 
@@ -192,7 +197,7 @@ module.exports = {
 
             ["lorem17", "Docker Images."],
 
-            ["lorem18", "LRS xAPI Learning Record Stores"],
+            ["lrs", "LRS xAPI Learning Record Stores"],
 
             ["mailerlite", "MailerLite. Customized group for LMS events"],
 
@@ -215,7 +220,7 @@ module.exports = {
 
             ["reports", "Reports. Courses reports."],
 
-            ["lorem27", "Scorm. Attach Scorm packages to courses"],
+            ["scorm", "Scorm. Attach Scorm packages to courses"],
 
             [
               "settings",
@@ -244,7 +249,7 @@ module.exports = {
             ],
 
             [
-              "lorem35",
+              "templates-sms",
               "Templates-SMS. Notification management with custom templates",
             ],
 
@@ -253,9 +258,11 @@ module.exports = {
               "Topic Types. List of possible Topic Types for Course content",
             ],
 
+            ["tracker", "Tracker."],
+
             ["lorem37", "Translations."],
 
-            ["lorem38", "Video Processing. Generation `hls` streaming formats"],
+            ["video", "Video Processing. Generation `hls` streaming formats"],
 
             [
               "vouchers",

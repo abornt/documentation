@@ -152,7 +152,7 @@ module.exports = {
               "Auth. User authentication. Roles & Permission Management",
             ],
 
-            ["lorem4", "Cart. General shop management."],
+            ["cart", "Cart. General shop management."],
 
             ["categories", "Categories"],
 
@@ -205,7 +205,7 @@ module.exports = {
             ["lorem22", "Pages. Simple CMS."],
 
             [
-              "lorem23",
+              "payments",
               "Payments. Facades that allows to connect payment gateways",
             ],
 
@@ -213,12 +213,12 @@ module.exports = {
 
             ["questionnaire", "Questionnaire. Answers & Reports"],
 
-            ["lorem26", "Reports. Courses reports."],
+            ["reports", "Reports. Courses reports."],
 
             ["lorem27", "Scorm. Attach Scorm packages to courses"],
 
             [
-              "lorem28",
+              "settings",
               "Settings. Additional global fields of various types and other package setup",
             ],
 
@@ -226,7 +226,7 @@ module.exports = {
 
             ["tags", "Tags. Tagging for any Module"],
 
-            ["lorem31", "Templates."],
+            ["templates", "Templates."],
 
             [
               "lorem32",
@@ -234,12 +234,12 @@ module.exports = {
             ],
 
             [
-              "lorem33",
+              "templates-email",
               "Templates-Email. Notification management with custom mjml templates.",
             ],
 
             [
-              "lorem34",
+              "templates-pdf",
               "Templates-PDF. Templates in fabric.js frontend rendering format.",
             ],
 
@@ -258,7 +258,7 @@ module.exports = {
             ["lorem38", "Video Processing. Generation `hls` streaming formats"],
 
             [
-              "lorem39",
+              "vouchers",
               "Vouchers. E-commerce vouchers to manage cart promotion",
             ],
 

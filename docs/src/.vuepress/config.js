@@ -98,6 +98,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Overview"],
+            /*
             ["lorem1", "Dashboard"],
             ["lorem2", "Users"],
             ["lorem3", "User Groups"],
@@ -118,6 +119,7 @@ module.exports = {
             ["lorem19", "Notifications"],
             ["lorem20", "Questionnaires"],
             ["lorem21", "Reports"],
+            */
           ],
         },
       ],

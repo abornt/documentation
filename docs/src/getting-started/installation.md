@@ -7,3 +7,7 @@ There are 3 main repositories to install from source, each of them have a readme
 1. [API](https://github.com/EscolaLMS/API) - the collection of backend components attached to database and other services. [Laravel Application](https://laravel.com/docs/9.x/installation).
 2. [Admin Panel](https://github.com/EscolaLMS/Admin) - Content and Learning Management System, requires API component. [Ant Design Pro Application](https://pro.ant.design/)
 3. [Demo](https://github.com/EscolaLMS/Front) - implementation of user Frontend, requires API component. [TypeScript Create React Application](https://create-react-app.dev/)
+
+One install `API` as standalone Laravel Application, and Admin Panel and Demo as standard React Application.
+
+This article will not cover how to perform above.

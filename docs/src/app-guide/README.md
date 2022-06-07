@@ -2,7 +2,7 @@
 
 **NOTE:** At the moment Admin Panel is being redesign by UX/UI Designer. Once this phase is ready (plan for June 2022) Admin Panel documentation will be here
 
-So far the Admin Panel consist of the following Package
+So far the Admin Panel consist of the following sections
 
 - Welcome (Welcome Page, dashboard)
 - Users

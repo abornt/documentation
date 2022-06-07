@@ -144,10 +144,10 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Introduction"],
-            ["lorem1", "Core"],
+            ["core", "Core"],
 
             [
-              "lorem2",
+              "api",
               "API Laravel REST API. Main module that compose all Laravel packages",
             ],
 
@@ -170,8 +170,6 @@ module.exports = {
               "Consultations. One to one conversation package with `jitsi`",
             ],
 
-            ["lorem7", "Core. Core Package "],
-
             ["courses", "Courses. and content package"],
 
             [
@@ -191,7 +189,7 @@ module.exports = {
 
             ["files", "Files. Uploading, deleting and reusing files."],
 
-            ["lorem13", "H5P Headless."],
+            ["h5p", "H5P Headless."],
 
             ["images", "Images. Responsive and compressions processing module"],
 
@@ -199,7 +197,7 @@ module.exports = {
 
             ["jitsi", "Jitsi."],
 
-            ["lorem17", "Docker Images."],
+            ["docker", "Docker Images."],
 
             ["lrs", "LRS xAPI Learning Record Stores"],
 

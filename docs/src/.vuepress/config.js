@@ -209,14 +209,14 @@ module.exports = {
 
             ["notifications", "Notifications."],
 
-            ["lorem22", "Pages. Simple CMS."],
+            ["pages", "Pages. Simple CMS."],
 
             [
               "payments",
               "Payments. Facades that allows to connect payment gateways",
             ],
 
-            ["lorem24", "Permissions and Roles."],
+            ["permissions", "Permissions and Roles."],
 
             ["questionnaire", "Questionnaire. Answers & Reports"],
 
@@ -236,7 +236,7 @@ module.exports = {
             ["templates", "Templates."],
 
             [
-              "lorem32",
+              "templates-certificates",
               "Templates-Certificates. Editing certificate templates",
             ],
 
@@ -262,7 +262,7 @@ module.exports = {
 
             ["tracker", "Tracker."],
 
-            ["lorem37", "Translations."],
+            ["translations", "Translations. (not implemented)"],
 
             ["video", "Video Processing. Generation `hls` streaming formats"],
 

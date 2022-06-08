@@ -1,3 +1,5 @@
+## Github issues
+
 We encourage you to use github issues as primary support service
 
 Those are repositories you can raise an issue.
@@ -7,3 +9,7 @@ Those are repositories you can raise an issue.
 3. [Demo](https://github.com/EscolaLMS/Front/issues) - implementation of user Frontend, requires API component. [TypeScript Create React Application](https://create-react-app.dev/)
 4. [Components](https://github.com/EscolaLMS/Components/issues) - Frontend reusable React components used to create a bespoke TypeScript/Javascript application.
 5. [sdk](https://github.com/EscolaLMS/sdk/issues) - Frontend Software Development Kit used to create a bespoke TypeScript/Javascript application.
+
+## Discord channel
+
+If you have any questions you can ask on [https://discord.gg/S7vuNenV8d](https://discord.gg/S7vuNenV8d)

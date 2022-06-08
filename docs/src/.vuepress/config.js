@@ -1,7 +1,7 @@
 const { description } = require("../../package");
 
 module.exports = {
-  base: "/",
+  base: "/documentation",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -64,8 +64,25 @@ module.exports = {
         ],
       },
       {
-        text: "Github",
-        link: "https://github.com/EscolaLMS",
+        text: "External Links",
+        items: [
+          {
+            text: "Github main page",
+            link: "https://github.com/EscolaLMS",
+          },
+          {
+            text: "Components Reference",
+            link: "https://escolalms.github.io/Components/",
+          },
+          {
+            text: "SDK Reference",
+            link: "https://escolalms.github.io/sdk/",
+          },
+          {
+            text: "API REST Reference",
+            link: "https://escolalms.github.io/API/",
+          },
+        ],
       },
     ],
     sidebar: {
@@ -286,11 +303,10 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Introduction"],
-            ["lorem1", "Backend customization"],
-            ["lorem2", "Admin panel customization"],
-            ["lorem3", "Frontend development"],
+            ["backend", "Backend customization"],
+            ["admin", "Admin panel customization"],
+            ["frontend", "Frontend development"],
             ["contributing", "Contributing"],
-            ["lorem5", "Permissions"],
           ],
         },
       ],

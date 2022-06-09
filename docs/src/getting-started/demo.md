@@ -2,6 +2,17 @@ All the demo content is hosted on domain `escolalms.com` not `wellms.io`
 
 Demo content is purged every 2 hours so feel free to change anything
 
+**Note** all card data is mock, it's a staging testing Stripe account.
+You cannot perform any real transactions in the demo.
+
+Use [testing cards from Stripe](https://stripe.com/docs/testing?numbers-or-method-or-token=card-numbers), example
+
+| BRAND        | NUMBER           | CVC          | DATE            |
+| ------------ | ---------------- | ------------ | --------------- |
+| Visa         | 4242424242424242 | Any 3 digits | Any future date |
+| Visa (debit) | 4000056655665556 | Any 3 digits | Any future date |
+| Mastercard   | 5555555555554444 | Any 3 digits | Any future date |
+
 ## Stable demo
 
 Stable demo is build from Docker images

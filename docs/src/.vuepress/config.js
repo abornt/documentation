@@ -33,7 +33,7 @@ module.exports = {
   themeConfig: {
     repo: "EscolaLMS/documentation",
     editLinks: true,
-    docsDir: "docs",
+    docsDir: "docs/src",
     docsBranch: "main",
     editLinkText: "Suggest changes on this page",
     lastUpdated: false,

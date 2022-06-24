@@ -22,7 +22,7 @@ You can configure this package by specifying keys in the .env file.
 - `TRACKER_ROUTE_PREFIX` - set tracked route prefix
 - `TRACKER_CONNECTION` - database connection, by default `sqlite`
 
-You can also use [facade](src/Facades/Tracker.php) to configure tracker.
+You can also use [facade](https://github.com/EscolaLMS/Tracker/blob/main/src/Facades/Tracker.php) to configure tracker.
 
 ```php
 Tracker::disable();
@@ -56,10 +56,10 @@ Table `track_routes` sample rows
 [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Tracker/)
 
 ## Tests
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Tracker/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 [![codecov](https://codecov.io/gh/EscolaLMS/Tracker/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/Tracker)
 [![phpunit](https://github.com/EscolaLMS/Tracker/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Tracker/actions/workflows/test.yml)
 
 ## Permissions
-Permissions are defined in [seeder](database/seeders/TrackerPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Tracker/blob/main/database/seeders/TrackerPermissionSeeder.php).

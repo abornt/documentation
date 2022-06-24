@@ -17,7 +17,8 @@ This package is used for creating Youtube livestream for Webinar in EscolaLms.
 ## Installing
 
 - `composer require escolalms/youtube`
-- configure integration in https://console.cloud.google.com/
+- configure integration in [https://console.cloud.google.com/](https://console.cloud.google.com/)
+
 
 ## Configuration in console cloude youtube
 Login in console cloud google and create new project
@@ -40,6 +41,6 @@ If you generated refresh token with api from endpoints:
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter=Youtube` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter=Youtube` to run tests. See [tests](https://github.com/EscolaLMS/Youtube/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Youtube/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/Youtube) [![phpunit](https://github.com/EscolaLMS/Youtube/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Youtube/actions/workflows/test.yml)

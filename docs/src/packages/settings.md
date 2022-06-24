@@ -89,15 +89,15 @@ No Listeners are defined in this package.
 
 #### **Left menu**
 
-![Admin panel menu](docs/settings/menu.png "Admin panel menu")
+![Admin panel menu](./docs/settings/menu.png "Admin panel menu")
 
 #### **List of registered Settings for single package (EscolaLms\Auth package used in screenshot)**
 
-![List of registered settings for single package](docs/settings/list.png "List of registered settings for single package")
+![List of registered settings for single package](./docs/settings/list.png "List of registered settings for single package")
 
 #### **Editing registered Setting**
 
-![Editing registered Setting](docs/settings/edit.png "Editing registered Setting")
+![Editing registered Setting](./docs/settings/edit.png "Editing registered Setting")
 
 ## Tests
 

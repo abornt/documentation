@@ -30,15 +30,15 @@ Run `./vendor/bin/phpunit --filter 'EscolaLms\\Categories\\Tests'` to run tests.
 
 **Left menu**
 
-![Menu](docs/categories/menu.png "Menu")
+![Menu](./docs/categories/menu.png "Menu")
 
 **List of consultations**
 
-![List of categories](docs/categories/list.png "List of categories")
+![List of categories](./docs/categories/list.png "List of categories")
 
 **Creating/editing consultation**
 
-![Creating/editing category](docs/categories/create.png "Creating or editing category")
+![Creating/editing category](./docs/categories/create.png "Creating or editing category")
 
 ## Permissions
 

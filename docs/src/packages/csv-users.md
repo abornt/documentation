@@ -48,7 +48,7 @@ Run `./vendor/bin/phpunit` to run tests. Test details
 ### Admin panel
 
 **Import and export button**
-![Import / export button](docs/csv-users/buttons.png "Import / export button")
+![Import / export button](./docs/csv-users/buttons.png "Import / export button")
 
 ## Permissions
 

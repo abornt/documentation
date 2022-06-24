@@ -111,11 +111,11 @@ No Listeners are defined in this package.
 
 #### **Reports dashboard**
 
-![Reports dashboard](docs/reports/reports.png "Reports dashboard")
+![Reports dashboard](./docs/reports/reports.png "Reports dashboard")
 
 #### **Course Stats**
 
-![Course statistics](docs/reports/course.png "Course statistics")
+![Course statistics](./docs/reports/course.png "Course statistics")
 
 ## Permissions
 

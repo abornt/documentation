@@ -74,15 +74,15 @@ These screens will only be available if at least one Template is registered (for
 
 #### **Left menu**
 
-![Menu](docs/templates/menu.png "Menu")
+![Menu](./docs/templates/menu.png "Menu")
 
 #### **List of templates**
 
-![List of templates](docs/templates/list.png "List of templates")
+![List of templates](./docs/templates/list.png "List of templates")
 
 #### **Creating/editing template**
 
-![Creating/editing template](docs/templates/edit.png "Creating or editing template")
+![Creating/editing template](./docs/templates/edit.png "Creating or editing template")
 
 ## Permissions
 

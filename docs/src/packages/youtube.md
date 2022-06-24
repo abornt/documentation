@@ -21,11 +21,11 @@ This package is used for creating Youtube livestream for Webinar in EscolaLms.
 
 ## Configuration in console cloude youtube
 Login in console cloud google and create new project
-![Create new project in google console](docs/youtube/create_new_project_in_google_console.png "Create new project in google console")
+![Create new project in google console](./docs/youtube/create_new_project_in_google_console.png "Create new project in google console")
 After created project got to the interfaces api and enable YouTube Data API v3
-![Enable interface Youtube data api](docs/youtube/enable_yt_data_api.png "Enable interface Youtube data api")
+![Enable interface Youtube data api](./docs/youtube/enable_yt_data_api.png "Enable interface Youtube data api")
 
-![Copy Login data from youtube api](docs/youtube/login_data.png "Copy Login data from youtube api")
+![Copy Login data from youtube api](./docs/youtube/login_data.png "Copy Login data from youtube api")
 Go to Login Data and create Api key and OAuth 2.0 client IDs and enter data for variables:
 - `services.youtube.client_id`
 - `services.youtube.client_secret`

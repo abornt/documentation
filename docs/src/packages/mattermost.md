@@ -84,4 +84,4 @@ Handling events
 ## How to use this on frontend
 ### Admin panel
 **Settings**
-![Settings](docs/mattermost/settings.png "Settings")
+![Settings](./docs/mattermost/settings.png "Settings")

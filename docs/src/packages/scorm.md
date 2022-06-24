@@ -59,10 +59,10 @@ Endpoint `/api/scorm/play/{uuid}` returns the html file with the `<iframe>`.
 
 ### Admin panel
 **List of Scorm packages**
-![List of Scorm packages](docs/list.png "List of Scorm packages")
+![List of Scorm packages](./docs/scorm/list.png "List of Scorm packages")
 
 **Scorm player**
-![Scorm player](docs/player.png "Scorm player")
+![Scorm player](./docs/scorm/player.png "Scorm player")
 
 ## Permissions
 Permissions are defined in [seeder](database/seeders/PermissionTableSeeder.php).

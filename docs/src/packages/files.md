@@ -58,16 +58,16 @@ This package listens for events and adds or removes user access to directories.
 ### Admin panel
 
 **Left menu**
-![Menu](docs/files/menu.png "Menu")
+![Menu](./docs/files/menu.png "Menu")
 
 **Files browser**
-![List](docs/files/list.png "List")
+![List](./docs/files/list.png "List")
 
 **File finder**
-![Finder](docs/files/finder.png "File finder")
+![Finder](./docs/files/finder.png "File finder")
 
 **Upload the file to the selected directory**
-![Upload](docs/files/upload.png "Upload")
+![Upload](./docs/files/upload.png "Upload")
 
 ## Permissions
 

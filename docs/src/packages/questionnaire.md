@@ -43,31 +43,31 @@ This package does not listen for any events
 
 **Left menu**
 
-![Menu](docs/questionnaire/menu.png "Menu")
+![Menu](./docs/questionnaire/menu.png "Menu")
 
 **List of questionnaire**
 
-![List of questionnaire](docs/questionnaire/list.png "List of questionnaire")
+![List of questionnaire](./docs/questionnaire/list.png "List of questionnaire")
 
 **Creating/editing questionnaire**
 
-![Creating/editing questionnaire](docs/questionnaire/new_questionnairy.png "Creating/editing questionnaire")
+![Creating/editing questionnaire](./docs/questionnaire/new_questionnairy.png "Creating/editing questionnaire")
 
 **Creating/editing question**
 
-![Creating/editing question](docs/questionnaire/add_question.png "Creating/editing question")
+![Creating/editing question](./docs/questionnaire/add_question.png "Creating/editing question")
 
 **Assign questionnaire to Course**
 
-![Assign questionnaire to Course](docs/questionnaire/assign_course.png "Assign questionnaire to Course")
+![Assign questionnaire to Course](./docs/questionnaire/assign_course.png "Assign questionnaire to Course")
 
 **List of Answers**
 
-![List of Answers](docs/questionnaire/answers.png "List of Answers")
+![List of Answers](./docs/questionnaire/answers.png "List of Answers")
 
 **Report**
 
-![Report](docs/questionnaire/report.png "Report")
+![Report](./docs/questionnaire/report.png "Report")
 
 ### Front Application
 

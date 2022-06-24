@@ -94,19 +94,19 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/cart/branch/main/graph/
 
 #### **Left menu**
 
-![Admin panel menu](docs/cart/menu.png "Admin panel menu")
+![Admin panel menu](./docs/cart/menu.png "Admin panel menu")
 
 #### **List of Products**
 
-![List of Products](docs/cart/products-list.png "List of Products")
+![List of Products](./docs/cart/products-list.png "List of Products")
 
 #### **Creating/editing Product**
 
-![Creating/editing Product](docs/cart/products-edit.png "Creating/editing Product")
+![Creating/editing Product](./docs/cart/products-edit.png "Creating/editing Product")
 
 #### **List of Orders**
 
-![List of Orders](docs/cart/orders-list.png "List of Orders")
+![List of Orders](./docs/cart/orders-list.png "List of Orders")
 
 #### **Details of Order**
 

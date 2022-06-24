@@ -54,15 +54,15 @@ Test details:
 
 #### **Left menu**
 
-![Menu](docs/templates-pdf/menu.png "Menu")
+![Menu](./docs/templates-pdf/menu.png "Menu")
 
 #### **List of templates**
 
-![List of templates](docs/templates-pdf/list.png "List of templates")
+![List of templates](./docs/templates-pdf/list.png "List of templates")
 
 #### **Creating/editing template**
 
-![Creating/editing template](docs/templates-pdf/edit.png "Creating or editing template")
+![Creating/editing template](./docs/templates-pdf/edit.png "Creating or editing template")
 
 ## Permissions
 

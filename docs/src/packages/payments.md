@@ -137,11 +137,11 @@ No Listeners are defined in this package.
 
 #### **Left Menu**
 
-![Admin panel menu](docs/payments/menu.png "Admin panel menu")
+![Admin panel menu](./docs/payments/menu.png "Admin panel menu")
 
 #### **List of Payments**
 
-![List of Payments](docs/payments/list.png "List of Payments")
+![List of Payments](./docs/payments/list.png "List of Payments")
 
 ## Permissions
 

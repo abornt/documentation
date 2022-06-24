@@ -22,6 +22,6 @@ as a boilerplate you can use
 
 Is a [Ant Design Pro](https://pro.ant.design/) application composed of
 
-- [Ant Design Components](https://ant.design/components/)
+- [Ant Design Components](https://ant.design/components/overview/)
 - [Ant Design Pro Components](https://procomponents.ant.design/)
 - [Admin Panel source](https://github.com/EscolaLMS/Admin)

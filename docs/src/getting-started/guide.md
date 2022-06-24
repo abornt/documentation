@@ -26,6 +26,28 @@ in order to launch LMS
 
 run `make init` shell script
 
+### Installation troubleshooting
+
+Installation process is based on [docker-compose file](https://github.com/EscolaLMS/Create-LMS-App/blob/main/docker-compose.yml).
+
+Clone the repository (see Installation from source above), then try to start all images `docker-compose up -d`
+
+Once all the docker containers are running you need to perform the following sequence of tasks
+
+1. docker-pull
+2. docker-up
+3. dumpautoload
+4. generate-new-keys-no-db
+5. migrate
+6. generate-new-keys-db
+7. permissions-seeder
+8. storage-links
+9. content-rich-seeder
+10. restart
+11. success
+
+All of the above are describes in [makefile](https://github.com/EscolaLMS/Create-LMS-App/blob/main/makefile)
+
 ## First steps
 
 Once everything is installed (takes a while)

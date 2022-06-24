@@ -16,5 +16,5 @@ npm i @escolalms/components
 or
 
 ```bash
-npm add @escolalms/components
+yarn add @escolalms/components
 ```

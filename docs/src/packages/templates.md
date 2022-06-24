@@ -20,7 +20,7 @@ Each template is defined by
 
 For every channel & event pair a single Variables definition is registered, which contains tokens that can be used in the template and replaced with values based on the data from the Event.
 
-Analysing these three example files in [tests](tests/Mock):
+Analysing these three example files in [tests](https://github.com/EscolaLMS/Templates/tree/main/tests/Mock):
 
 - TestChannel.php
 - TestVariables.php
@@ -56,7 +56,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter 'EscolaLms\\Templates\\Tests'` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\Templates\\Tests'` to run tests. See [tests](https://github.com/EscolaLMS/Templates/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details:
 [![codecov](https://codecov.io/gh/EscolaLMS/Templates/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/Templates)
@@ -87,7 +87,3 @@ These screens will only be available if at least one Template is registered (for
 ## Permissions
 
 Permissions are defined in [Enum](https://github.com/EscolaLMS/Templates/blob/main/src/Enums/TemplatesPermissionsEnum.php) and seeded in [Seeder](https://github.com/EscolaLMS/Templates/blob/main/database/seeders/PermissionTableSeeder.php).
-
-## Roadmap. Todo. Troubleshooting
-
-- ???

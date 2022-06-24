@@ -29,7 +29,7 @@ All the endpoints are defined in swagger
 [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Courses-Import-Export/)
 
 ## Tests
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Courses-Import-Export/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details
 [![codecov](https://codecov.io/gh/EscolaLMS/Courses-Import-Export/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/Courses-Import-Export)
@@ -42,4 +42,4 @@ Test details
 
 
 ## Permissions
-Permissions are defined in [seeder](database/seeders/CoursesExportImportPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Courses-Import-Export/blob/main/database/seeders/CoursesExportImportPermissionSeeder.php)

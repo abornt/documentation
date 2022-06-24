@@ -57,7 +57,7 @@ Below are examples of how matadata and values are stored in database
 | 1436 | 2022-03-03 12:17:42 | 2022-03-03 12:17:42 |     description     |                zzz                 | EscolaLms\ModelFields\Tests\Models\User |   1458   |
 | 1438 | 2022-03-03 12:17:42 | 2022-03-03 12:17:42 | interested_in_tests |                true                | EscolaLms\ModelFields\Tests\Models\User |   1458   |
 
-See [tests](tests) folder as rows above are generated from the tests.
+See [tests](https://github.com/EscolaLMS/model-fields/tree/main/tests) folder as rows above are generated from the tests.
 
 ## Example
 
@@ -398,7 +398,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/model-fields/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/model-fields/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/model-fields) [![phpunit](https://github.com/EscolaLMS/model-fields/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/model-fields/actions/workflows/test.yml)
 
@@ -438,7 +438,7 @@ See example above how to extend controllers to CRUD model fields to give model
 
 ## Permissions
 
-Permissions are defined in [seeder](packages/model-fields/database/seeders/PermissionTableSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/model-fields/blob/main/database/seeders/PermissionTableSeeder.php)
 
 ## Roadmap. Todo. Troubleshooting.
 

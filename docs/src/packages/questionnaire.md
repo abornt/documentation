@@ -25,7 +25,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Questionnaire/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/questionnaire/branch/main/graph/badge.svg?token=gBzpyNK8DQ)](https://codecov.io/gh/EscolaLMS/questionnaire) [![phpunit](https://github.com/EscolaLMS/questionnaire/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/questionnaire/actions/workflows/test.yml)
 
@@ -75,7 +75,7 @@ This package does not listen for any events
 
 ## Permissions
 
-Permissions are defined in [seeder](packages/questionnaire/database/seeders/QuestionnairePermissionsSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Questionnaire/blob/main/database/seeders/QuestionnairePermissionsSeeder.php)
 
 ## Database relation
 

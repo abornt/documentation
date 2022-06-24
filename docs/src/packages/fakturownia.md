@@ -38,7 +38,7 @@ Add table `fakturownia_orders` and relation to table `order` from packed `escola
 
 ## Tests
 
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Fakturownia-Integration/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Fakturownia-Integration/branch/main/graph/badge.svg?token=O91FHNKI6R)](https://codecov.io/gh/EscolaLMS/Fakturownia-Integration) [![Tests PHPUnit in environments](https://github.com/EscolaLMS/Fakturownia-Integration/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Fakturownia-Integration/actions/workflows/test.yml)
 

@@ -42,7 +42,7 @@ Run `./vendor/bin/phpunit --filter 'EscolaLms\\Categories\\Tests'` to run tests.
 
 ## Permissions
 
-Permissions are defined in [seeder](vendor/escolalms/categories/database/seeders/CategoriesPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Categories/blob/main/database/seeders/CategoriesPermissionSeeder.php)
 
 ## Features
 

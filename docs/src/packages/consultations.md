@@ -31,7 +31,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter=Consultation` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter=Consultation` to run tests. See [tests](https://github.com/EscolaLMS/Consultations/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Consultations/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/Consultations) [![phpunit](https://github.com/EscolaLMS/Consultations/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Consultations/actions/workflows/test.yml)
 
@@ -72,7 +72,7 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Consultations/branch/ma
 
 ## Permissions
 
-Permissions are defined in [seeder](vendor/escolalms/consultations/database/seeders/ConsultationsPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Consultations/blob/main/database/seeders/ConsultationsPermissionSeeder.php)
 
 ## Database relation
 

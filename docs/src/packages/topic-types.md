@@ -34,7 +34,7 @@ See [Courses readme](https://github.com/EscolaLMS/Courses#adding-new-topicconten
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter 'EscolaLms\\TopicTypes\\Tests'` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\TopicTypes\\Tests'` to run tests. See [tests](https://github.com/EscolaLMS/topic-types/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/topic-types/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/topic-types) [![phpunit](https://github.com/EscolaLMS/topic-types/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/topic-types/actions/workflows/test.yml)

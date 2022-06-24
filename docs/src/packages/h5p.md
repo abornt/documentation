@@ -21,7 +21,7 @@ The lib allows headlessly
 
 See [Swagger](https://escolalms.github.io/H5P/) documented endpoints.
 
-Some [tests](tests) can also be a great point of start.
+Some [tests](https://github.com/EscolaLMS/H5P/tree/main/tests) can also be a great point of start.
 
 To play the content you can use [EscolaLMS H5P Player](https://github.com/EscolaLMS/H5P-player)
 
@@ -60,7 +60,7 @@ location ~* \.(eot|ttf|woff|woff2|jpg|jpeg|gif|png|wav|mp3|mp4|mov|ogg|webv)$ {
 
 Most of the endpoints require authorisation, this is possible with laravel passport
 
-There is a [seeder](database/seeders/PermissionTableSeeder.php) to must be run in order to authrize
+There is a [seeder](https://github.com/EscolaLMS/H5P/blob/main/database/seeders/PermissionTableSeeder.php) to must be run in order to authrize
 
 User model is taken from [Auth](https://github.com/EscolaLMS/Auth) package.
 

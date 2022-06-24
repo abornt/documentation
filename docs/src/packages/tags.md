@@ -29,13 +29,13 @@ All the endpoints are defined in [![swagger][![swagger](https://img.shields.io/b
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter=Tags` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter=Tags` to run tests. See [tests](https://github.com/EscolaLMS/Tags/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Tags/branch/main/graph/badge.svg?token=ci4VPQbrOI)](https://codecov.io/gh/EscolaLMS/Tags) [![phpunit](https://github.com/EscolaLMS/Tags/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Tags/actions/workflows/test.yml)
 
 ## Permissions
 
-Permissions are defined in [seeder](vendor/escolalms/tags/database/seeders/TagsPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Tags/blob/main/database/seeders/TagsPermissionSeeder.php)
 
 ## Database relation
 

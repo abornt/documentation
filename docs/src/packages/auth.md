@@ -109,22 +109,22 @@ public function handle(Registered $event)
 ### Admin panel
 
 **List of users**
-![List of users](docs/auth/list_of_users.png "List of users")
+![List of users](./docs/auth/list_of_users.png "List of users")
 
 **Creating/editing user**
-![Creating/editing user](docs/auth/user_form.png "User form")
+![Creating/editing user](./docs/auth/user_form.png "User form")
 
 **User categories**
-![User categories](docs/auth/user_categories.png "User categories")
+![User categories](./docs/auth/user_categories.png "User categories")
 
 **List of groups**
-![List of groups](docs/auth/list_of_groups.png "List of groups")
+![List of groups](./docs/auth/list_of_groups.png "List of groups")
 
 **Creating/editing group**
-![Creating/editing group](docs/auth/group_form.png "Creating/editing group")
+![Creating/editing group](./docs/auth/group_form.png "Creating/editing group")
 
 **My profile**
-![My profile](docs/auth/my_profile.png "My profile")
+![My profile](./docs/auth/my_profile.png "My profile")
 
 ## Permissions
 

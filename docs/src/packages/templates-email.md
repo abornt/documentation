@@ -54,15 +54,15 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Templates-Email/branch/
 
 #### **Left menu**
 
-![Menu](docs/templates-email/menu.png "Menu")
+![Menu](./docs/templates-email/menu.png "Menu")
 
 #### **List of templates**
 
-![List of templates](docs/templates-email/list.png "List of templates")
+![List of templates](./docs/templates-email/list.png "List of templates")
 
 #### **Creating/editing template**
 
-![Creating/editing template](docs/templates-email/edit.png "Creating or editing template")
+![Creating/editing template](./docs/templates-email/edit.png "Creating or editing template")
 
 ## Permissions
 

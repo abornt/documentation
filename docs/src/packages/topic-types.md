@@ -48,4 +48,4 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/topic-types/branch/main
 
 **Add topic type to lesson**
 
-![TopicType](docs/topic_types.png "TopicType")
+![TopicType](./docs/topic_types/topic_types.png "TopicType")

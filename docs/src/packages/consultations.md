@@ -56,15 +56,15 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Consultations/branch/ma
 
 **Left menu**
 
-![Menu](docs/consultations/menu.png "Menu")
+![Menu](./docs/consultations/menu.png "Menu")
 
 **List of consultations**
 
-![List of consultations](docs/consultations/list.png "List of consultations")
+![List of consultations](./docs/consultations/list.png "List of consultations")
 
 **Creating/editing consultation**
 
-![Creating/editing consultation](docs/consultations/new_consultation.png "Creating or editing consultation")
+![Creating/editing consultation](./docs/consultations/new_consultation.png "Creating or editing consultation")
 
 ### Front Application
 

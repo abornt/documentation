@@ -61,10 +61,10 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Stationary-Events/branc
 ### Admin panel
 
 **List of stationary events**
-![List of stationary events](docs/stationary-events/list.png "List of stationary events")
+![List of stationary events](./docs/stationary-events/list.png "List of stationary events")
 
 **Stationary event form**
-![Form](docs/stationary-events/form.png "Form")
+![Form](./docs/stationary-events/form.png "Form")
 
 ## Permissions
 

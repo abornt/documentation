@@ -91,15 +91,15 @@ There are no listeners specified in this package.
 
 #### **Menu**
 
-![Menu](docs/vouchers/menu.png "Menu")
+![Menu](./docs/vouchers/menu.png "Menu")
 
 #### **List of Coupons**
 
-![List of Coupons](docs/vouchers/list.png "List of Coupons")
+![List of Coupons](./docs/vouchers/list.png "List of Coupons")
 
 #### **Creating/editing Coupon**
 
-![Creating/editing Coupon](docs/vouchers/edit.png "Creating/editing Coupon")
+![Creating/editing Coupon](./docs/vouchers/edit.png "Creating/editing Coupon")
 
 ## Permissions
 

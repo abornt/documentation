@@ -40,11 +40,11 @@ Test details:
 
 #### **Left menu**
 
-![Menu](docs/notifications/menu.png "Menu")
+![Menu](./docs/notifications/menu.png "Menu")
 
 #### **List of notifications**
 
-![List of notifications](docs/notifications/list.png "List of notifications")
+![List of notifications](./docs/notifications/list.png "List of notifications")
 
 ## Permissions
 

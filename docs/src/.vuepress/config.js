@@ -100,7 +100,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Introduction"],
-            ["guide", "Quickstart Guide"],
+            ["guide", "Quickstart Installation (CLA)"],
             ["installation", "Installation"],
             ["headless-architecture", "Headless Architecture"],
             ["help-support", "Help & Support"],
@@ -303,6 +303,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["", "Introduction"],
+            ["cra", "Create Wellms App"],
             ["backend", "Backend customization"],
             ["admin", "Admin panel customization"],
             ["frontend", "Frontend development"],

@@ -109,7 +109,7 @@ Test details:
 
 ## Permissions
 
-Permissions are defined in [Enum](https://github.com/EscolaLMS/Settings/blob/main/src/Enums/ReportsPermissionsEnum.php) and seeded in [Seeder](https://github.com/EscolaLMS/Settings/blob/main/database/seeders/ReportsPermissionSeeder.php).
+Permissions are defined in [Enum](https://github.com/EscolaLMS/settings/blob/main/src/Enums/SettingsPermissionsEnum.php) and seeded in [Seeder](https://github.com/EscolaLMS/settings/blob/main/database/seeders/PermissionTableSeeder.php).
 
 ## Roadmap. Todo. Troubleshooting
 

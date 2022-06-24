@@ -63,7 +63,7 @@ Sms::extend('custom', function($app) {
 
 
 ## Tests
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Templates-SMS/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 [![codecov](https://codecov.io/gh/EscolaLMS/Templates-SMS/branch/main/graph/badge.svg?token=O91FHNKI6R)](https://codecov.io/gh/EscolaLMS/Templates-SMS)
 [![Tests PHPUnit in environments](https://github.com/EscolaLMS/Templates-SMS/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/Templates-SMS/actions/workflows/test.yml)

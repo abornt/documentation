@@ -119,8 +119,4 @@ No Listeners are defined in this package.
 
 ## Permissions
 
-Permissions are defined in [Enum](https://github.com/EscolaLMS/Reports/blob/main/src/Enums/ReportsPermissionsEnum.php) and seeded in [Seeder](https://github.com/EscolaLMS/Reports/database/seeders/ReportsPermissionSeeder.php).
-
-## Roadmap. Todo. Troubleshooting
-
-- ???
+Permissions are defined in [Enum](https://github.com/EscolaLMS/Reports/blob/main/src/Enums/ReportsPermissionsEnum.php) and seeded in [Seeder](https://github.com/EscolaLMS/Reports/blob/main/database/seeders/ReportsPermissionSeeder.php).

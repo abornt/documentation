@@ -103,5 +103,5 @@ export default App;
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter 'EscolaLms\\Jitsi\\Tests'` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\Jitsi\\Tests'` to run tests. See [tests](https://github.com/EscolaLMS/Jitsi/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 

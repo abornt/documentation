@@ -26,13 +26,13 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter 'EscolaLms\\Pages\\Tests'` to run tests. See [tests](tests) a quite good starting point for creating your own.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\Pages\\Tests'` to run tests. See [tests](https://github.com/EscolaLMS/pages/tree/main/tests) a quite good starting point for creating your own.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Files/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/pages) [![phpunit](https://github.com/EscolaLMS/pages/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/pages/actions/workflows/test.yml)
 
 ## Permissions
 
-Permissions are defined in [seeder](vendor/escolalms/pages/database/seeders/PermissionTableSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/pages/blob/main/database/seeders/PermissionTableSeeder.php)
 
 ## Database relation
 

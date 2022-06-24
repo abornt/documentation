@@ -61,7 +61,7 @@ Shop Service contains functionality related to managing Cart content (adding/rem
 
 ## Endpoints
 
-All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/cart/).
+All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Cart/).
 
 ## Tests
 
@@ -108,9 +108,6 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/cart/branch/main/graph/
 
 ![List of Orders](./docs/cart/orders-list.png "List of Orders")
 
-#### **Details of Order**
-
-![Details of Order](docs/cart/orders-details.png "Details of Order")
 
 ## Permissions
 

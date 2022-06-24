@@ -24,7 +24,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit --filter 'EscolaLms\\Categories\\Tests'` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit --filter 'EscolaLms\\Categories\\Tests'` to run tests. See [tests](https://github.com/EscolaLMS/Categories/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 ### Admin panel
 

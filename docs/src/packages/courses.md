@@ -53,15 +53,15 @@ Run `./vendor/bin/phpunit  --filter 'EscolaLms\\Courses\\Tests'` to run tests. S
 
 **Left menu**
 
-![Menu](docs/courses/menu_course.png "Menu")
+![Menu](./docs/courses/menu_course.png "Menu")
 
 **List of courses**
 
-![List of courses](docs/courses/list_courses.png "List of courses")
+![List of courses](./docs/courses/list_courses.png "List of courses")
 
 **Creating/editing course**
 
-![Creating/editing course](docs/courses/create_course.png "Creating or editing course")
+![Creating/editing course](./docs/courses/create_course.png "Creating or editing course")
 
 ## Permissions
 

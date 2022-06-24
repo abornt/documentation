@@ -13,7 +13,7 @@ Coverts TopicVideo into HLS stream.
 
 ## Requirements
 - `ffmpeg` must be installed
-- Once `EscolaLms\TopicType\TopicTypeChanged` is dispatched job [ProccessVideo](src/Jobs/ProccessVideo.php) added to queue
+- Once `EscolaLms\TopicType\TopicTypeChanged` is dispatched job [ProccessVideo](https://github.com/EscolaLMS/Video/blob/main/src/Jobs/ProcessVideo.php) added to queue
 
 ## Example
 This package extends API resources in `EscolaLms\TopicType` package.
@@ -58,7 +58,7 @@ The processing status is saved in the json field in the `topics` table:
 ``` 
 
 ## Tests
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) folder as it's quite good staring point as documentation appendix.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Video/tree/main/tests) folder as it's quite good staring point as documentation appendix.
 
 Test details
 [![codecov](https://codecov.io/gh/EscolaLMS/Video/branch/main/graph/badge.svg?token=O91FHNKI6R)](https://codecov.io/gh/EscolaLMS/Video)

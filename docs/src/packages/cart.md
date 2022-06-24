@@ -115,4 +115,3 @@ Permissions are defined in [Enum](https://github.com/EscolaLMS/Cart/blob/main/sr
 
 ## Roadmap. Todo. Troubleshooting
 
-- ???

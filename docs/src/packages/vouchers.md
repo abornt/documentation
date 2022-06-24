@@ -41,7 +41,7 @@ There are two types that relate to whole Cart and two types that relate to speci
 
 #### **Fixed Cart amount coupon**
 
-Coupon of type `EscolaLms\Vouchers\Enums::CART_FIXED` substracts constant amount from total price of Cart. See [`EscolaLms\Vouchers\Strategies\CartFixedDiscountStrategy`](src/Strategies/CartFixedDiscountStrategy.php).
+Coupon of type `EscolaLms\Vouchers\Enums::CART_FIXED` substracts constant amount from total price of Cart. See [`EscolaLms\Vouchers\Strategies\CartFixedDiscountStrategy`](https://github.com/EscolaLMS/Vouchers/blob/main/src/Strategies/CartFixedDiscountStrategy.php).
 
 - At least one of "included products" must be in Cart
 - None of "excluded products" must be in Cart
@@ -50,18 +50,18 @@ Coupon of type `EscolaLms\Vouchers\Enums::CART_FIXED` substracts constant amount
 
 #### **Percent Cart amount coupon**
 
-Coupon of type `EscolaLms\Vouchers\Enums::CART_PERCENT` substracts percentage based amount from total price of Cart, but only for Products not in "excluded products" or "excluded categories" list. See [`EscolaLms\Vouchers\Strategies\CartPercentDiscountStrategy`](src/Strategies/CartPercentDiscountStrategy.php).
+Coupon of type `EscolaLms\Vouchers\Enums::CART_PERCENT` substracts percentage based amount from total price of Cart, but only for Products not in "excluded products" or "excluded categories" list. See [`EscolaLms\Vouchers\Strategies\CartPercentDiscountStrategy`](https://github.com/EscolaLMS/Vouchers/blob/main/src/Strategies/CartPercentDiscountStrategy.php).
 
 - At least one of "included products" must be in Cart
 - At least one of "included categories" must be in Cart
 
 #### **Fixed Product coupon**
 
-Coupon of type `EscolaLms\Vouchers\Enums::PRODUCT_FIXED` substracts constant amount from Product price, but only once per unique Product. Product must be specified in "included products". See [`EscolaLms\Vouchers\Strategies\ProductFixedDiscountStrategy`](src/Strategies/ProductFixedDiscountStrategy.php).
+Coupon of type `EscolaLms\Vouchers\Enums::PRODUCT_FIXED` substracts constant amount from Product price, but only once per unique Product. Product must be specified in "included products". See [`EscolaLms\Vouchers\Strategies\ProductFixedDiscountStrategy`](https://github.com/EscolaLMS/Vouchers/blob/main/src/Strategies/ProductFixedDiscountStrategy.php).
 
 #### **Percent Product coupon**
 
-Coupon of type `EscolaLms\Vouchers\Enums::PRODUCT_FIXED` substracts percentage based amount from Product price. Product must be specified in "included products". See [`EscolaLms\Vouchers\Strategies\ProductPercentDiscountStrategy`](src/Strategies/ProductPercentDiscountStrategy.php).
+Coupon of type `EscolaLms\Vouchers\Enums::PRODUCT_FIXED` substracts percentage based amount from Product price. Product must be specified in "included products". See [`EscolaLms\Vouchers\Strategies\ProductPercentDiscountStrategy`](https://github.com/EscolaLMS/Vouchers/blob/main/src/Strategies/ProductPercentDiscountStrategy.php).
 
 ### How to use Coupon
 
@@ -73,7 +73,7 @@ All the endpoints are defined in [![swagger](https://img.shields.io/badge/docume
 
 ## Tests
 
-Run `./vendor/bin/phpunit` to run tests. See [tests](tests) directory.
+Run `./vendor/bin/phpunit` to run tests. See [tests](https://github.com/EscolaLMS/Vouchers/tree/main/tests) directory.
 
 Test details [![codecov](https://codecov.io/gh/EscolaLMS/Vouchers/branch/main/graph/badge.svg?token=NRAN4R8AGZ)](https://codecov.io/gh/EscolaLMS/vouchers) [![phpunit](https://github.com/EscolaLMS/Vouchers/actions/workflows/test.yml/badge.svg)](https://github.com/EscolaLMS/vouchers/actions/workflows/test.yml)
 

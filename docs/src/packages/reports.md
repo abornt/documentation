@@ -75,7 +75,7 @@ After creating a Metric you need to register it by adding it to `metrics` array 
 
 ## Endpoints
 
-All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/reports/).
+All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Reports/).
 
 ### Metrics endpoints
 

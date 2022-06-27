@@ -15,7 +15,7 @@ The package creates resized images from source by given parameters. This is a he
 
 The input images are stored by Laravel in any of available disk (local storage/s3/any bucket). Once a resized version is requested a cached version in created and returend. Below are examples to show the overall idea.
 
-The initial resize is done by [Intervention/image](https://github.com/Intervention/image) with `GD` driver. That can be [configured](http://image.intervention.io/getting_started/configuration).
+The initial resize is done by [Intervention/image](https://github.com/Intervention/image) with `GD` driver. That can be [configured](https://image.intervention.io/v2/introduction/configuration).
 
 After inital resized all the images are optimized with [image-optimizer](https://packagist.org/packages/spatie/image-optimizer).
 

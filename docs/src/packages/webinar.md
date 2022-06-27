@@ -68,7 +68,7 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Webinar/branch/main/gra
 
 ## Permissions
 
-Permissions are defined in [seeder](vendor/escolalms/webinar/database/seeders/WebinarsPermissionSeeder.php)
+Permissions are defined in [seeder](https://github.com/EscolaLMS/Webinar/blob/main/database/seeders/WebinarsPermissionSeeder.php)
 
 ## Database relation
 

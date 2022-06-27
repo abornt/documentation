@@ -52,7 +52,7 @@ This package has no Channels or Variables defined, everything should be created 
 
 ## Endpoints
 
-All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/templates/)
+All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Templates/)
 
 ## Tests
 

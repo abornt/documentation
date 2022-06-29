@@ -69,7 +69,7 @@ For the frontend to be able to run the webinar, it is necessary to use this pack
 
 Below is an example of a wrapper implementation for a jitsy box with data handling from the api
 
-```
+```tsx
 import { useState } from "react";
 import * as API from "@escolalms/sdk/lib/types/api";
 import { JitsiMeeting } from "@jitsi/react-sdk";
@@ -81,7 +81,6 @@ const JitsyBox: React.FC<{
   isStream?: boolean;
 }> = ({ JitsyData, close, isStream }) => {
   const [jitsyIsReady, setJitsyIsReady] = useState(false);
-
 
   const handleReadyToClose = () => {
     close();
@@ -124,7 +123,6 @@ const JitsyBox: React.FC<{
 };
 
 export default JitsyBox;
-
 ```
 
 ## Permissions

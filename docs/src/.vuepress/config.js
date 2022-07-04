@@ -82,6 +82,10 @@ module.exports = {
             text: "API REST Reference",
             link: "https://escolalms.github.io/API/",
           },
+          {
+            text: "C4 model - software architecture",
+            link: "https://structurizr.com/share/75191",
+          },
         ],
       },
     ],

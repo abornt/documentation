@@ -61,6 +61,10 @@ module.exports = {
             text: "Development",
             link: "/development/",
           },
+          {
+            text: "Tutorials",
+            link: "/tutorials/",
+          },
         ],
       },
       {

@@ -71,7 +71,141 @@ This package does not listen for any events
 
 ### Front Application
 
-...
+On the front-end we have the possibility to send an evaluation for the course, where we call the action to evaluate the course depends on the implementation, e.g. after all the topics in the course have been finished. To do so, we can use this component [RateComponent](https://components.wellms.io/#rate)
+
+The endpoint we are interested in is [endpoint](https://escolalms.github.io/Questionnaire/#/QuestionnaireStars/000d633e3d443742474a090e856c981a)
+
+Example component implementation.
+
+```tsx
+const Rating: React.FC<{
+  model: string;
+  modelID: number;
+  questionnary: EscolaLms.Questionnaire.Models.Questionnaire;
+  close: () => void;
+}> = ({ model, modelID, questionnary, close }) => {
+  const { sendQuestionnaireAnswer } = useContext(EscolaLMSContext);
+  const [state, setState] = useState(initialState);
+
+  const { t } = useTranslation();
+
+  const handleSendAnswer = useCallback(async () => {
+    if (questionnary.questions) {
+      setState((prevState) => ({
+        ...prevState,
+        loading: true,
+      }));
+      try {
+        const request = await sendQuestionnaireAnswer(
+          model,
+          modelID,
+          questionnary.id,
+          {
+            question_id: questionnary.questions[state.step].id,
+            rate: state.rating,
+            note: state.note,
+          }
+        );
+        if (request.success) {
+          toast.success(request.message);
+        }
+      } catch (error) {
+        toast.error(t("UnexpectedError"));
+        console.error(error);
+      } finally {
+        setState((prevState) => ({
+          ...prevState,
+          loading: false,
+          step: prevState.step + 1,
+          note: "",
+          rating: null,
+        }));
+      }
+    }
+  }, [model, modelID, questionnary.id, state]);
+
+  const handleSave = useCallback(() => {
+    handleSendAnswer();
+    if (
+      questionnary.questions &&
+      state.step === questionnary.questions.length - 1
+    ) {
+      setState((prevState) => ({
+        ...prevState,
+        showLastScreen: true,
+      }));
+    }
+  }, [questionnary, state.step, handleSendAnswer]);
+
+  return (
+    <div className={styles.questionnaire}>
+      <div className={styles.questionnaire__close} onClick={() => close()}>
+        <Icon name="close" />{" "}
+      </div>
+      {!state.showLastScreen ? (
+        <div>
+          <h3>{questionnary.title}</h3>
+          {questionnary.questions && (
+            <div className={styles.questionnaire__question}>
+              <h4>{questionnary.questions[state.step]?.title}</h4>
+              <div className={styles.questionnaire__stars}>
+                {Array.from(Array(5).keys()).map((i) => (
+                  <span
+                    key={i}
+                    className={
+                      state.rating && i < state.rating
+                        ? styles.questionnaire__stars__active
+                        : ""
+                    }
+                  >
+                    <Icon
+                      name="starRating"
+                      onClick={() =>
+                        setState((prevState) => ({
+                          ...prevState,
+                          rating: i + 1,
+                        }))
+                      }
+                    />
+                  </span>
+                ))}
+              </div>
+              <textarea
+                placeholder={t("QuestionnaireBox.writeNote")}
+                value={state.note}
+                onChange={(e) =>
+                  setState((prevState) => ({
+                    ...prevState,
+                    note: e.target.value,
+                  }))
+                }
+                name="notenote"
+              ></textarea>
+            </div>
+          )}
+
+          <Button
+            disabled={!state.rating}
+            loading={state.loading}
+            onClick={() => handleSave()}
+          >
+            Zapisz
+          </Button>
+        </div>
+      ) : (
+        <div className={styles.thankbox}>
+          <Icon name="rateThx" />
+          <h3>{t("QuestionnaireBox.thanks")}</h3>
+          <p>{t("QuestionnaireBox.great")}</p>{" "}
+          <Button onClick={() => close()}>{t("QuestionnaireBox.back")}</Button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default Rating;
+```
 
 ## Permissions
 

@@ -67,7 +67,7 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Webinar/branch/main/gra
 
 For the frontend to be able to run the webinar, it is necessary to use this package in the case of integration with react [React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk) or iframe api in case of other integrations [IFrame API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe)
 
-Below is an example of a wrapper implementation for a jitsy box with data handling from the api
+After setting the appropriate role, we start the startRecording method to make the webinar stream on the [youtube](https://www.youtube.com/intl/ALL_pl/howyoutubeworks/) platform.
 
 ```tsx
 import { useState } from "react";
@@ -78,8 +78,7 @@ import styles from "./jitsy.module.scss";
 const JitsyBox: React.FC<{
   JitsyData: API.JitsyData | null;
   close: () => void;
-  isStream?: boolean;
-}> = ({ JitsyData, close, isStream }) => {
+}> = ({ JitsyData, close }) => {
   const [jitsyIsReady, setJitsyIsReady] = useState(false);
 
   const handleReadyToClose = () => {
@@ -104,7 +103,7 @@ const JitsyBox: React.FC<{
             // we have to listen to the change of role to moderator in order to execute the command to record and stream on youtube
             externalApi.on("participantRoleChanged", (event) => {
               setJitsyIsReady(true);
-              if (event.role === "moderator" && isStream) {
+              if (event.role === "moderator") {
                 externalApi.executeCommand("startRecording", {
                   mode: "stream",
 

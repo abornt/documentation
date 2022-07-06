@@ -1,4 +1,5 @@
 # Consultations
+
 One to one conversation package
 
 [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Consultations/)
@@ -68,7 +69,47 @@ Test details [![codecov](https://codecov.io/gh/EscolaLMS/Consultations/branch/ma
 
 ### Front Application
 
-...
+For the frontend to be able to run the consultation, it is necessary to use this package in the case of integration with react [React SDK](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-react-sdk) or iframe api in case of other integrations [IFrame API](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe)
+
+```tsx
+import { useState } from "react";
+import * as API from "@escolalms/sdk/lib/types/api";
+import { JitsiMeeting } from "@jitsi/react-sdk";
+import styles from "./jitsy.module.scss";
+
+const JitsyBox: React.FC<{
+  JitsyData: API.JitsyData | null;
+  close: () => void;
+}> = ({ JitsyData, close }) => {
+  const [jitsyIsReady, setJitsyIsReady] = useState(false);
+
+  const handleReadyToClose = () => {
+    close();
+  };
+
+  return (
+    <div className={styles.jitsy_box}>
+      {JitsyData && (
+        <JitsiMeeting
+          {...JitsyData.data}
+          configOverwrite={{
+            ...JitsyData.data.configOverwrite,
+          }}
+          interfaceConfigOverwrite={{
+            ...JitsyData.data.interfaceConfigOverwrite,
+          }}
+          getIFrameRef={(iframeRef) => {
+            //iframe style definition
+          }}
+          onReadyToClose={handleReadyToClose}
+        />
+      )}
+    </div>
+  );
+};
+
+export default JitsyBox;
+```
 
 ## Permissions
 
@@ -81,6 +122,7 @@ Permissions are defined in [seeder](https://github.com/EscolaLMS/Consultations/b
 3. `Categories` Consultation belongs to many with models Categories
 4. `Users` Consultation is related belongs to many with User which bought consultation
 5. `Terms` Consultation model has many to models ConsultationUserPivot. It is reported terms
+
 ```
 Consultation 1 -> 1 Author
 Consultation 1 -> n ProposedTerms

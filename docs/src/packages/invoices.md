@@ -21,7 +21,7 @@ This package is adapter for EscolaLMS to create pdf invoice by <a href="https://
 
 ## Config
 
-``` php
+```php
 return [
     'date' => [
         /*
@@ -123,7 +123,6 @@ return [
 
 ## Example or Tutorial
 
-
 ## Endpoints
 
 All the endpoints are defined in [![swagger](https://img.shields.io/badge/documentation-swagger-green)](https://escolalms.github.io/Invoices/)
@@ -140,7 +139,7 @@ This package does not dispatch any events.
 
 ## Listeners
 
-This package does not listen for any events
+This package does not listen for any events.
 
 ## How to use this on frontend.
 
@@ -150,9 +149,71 @@ This package does not listen for any events
 
 ### Front Application
 
-...
+To be able to download an invoice, we need to download orders using this method from the our sdk [sdk(fetchOrders)](https://github.com/EscolaLMS/sdk/blob/main/src/react/context/index.tsx#L1305) or to invoke the request directly when we want to perform an action in ssr [request](https://github.com/EscolaLMS/sdk/blob/main/src/services/cart.ts#L120) or querying this endpoint directly [endpoint](https://api-docs.wellms.io/#/Orders/8997737565f012fc6483d7874fed7375).
+
+Below is an example of the implementation of such a component with orders collection and with the possibility of downloading an invoice.
+
+```tsx
+import React, { useCallback, useContext, useEffect, useState } from "react";
+import { EscolaLMSContext } from "@escolalms/sdk/lib/react/context";
+
+import { API } from "@escolalms/sdk/lib";
+
+const Orders = () => {
+  const { user, orders, fetchOrders, fetchOrderInvoice } =
+    useContext(EscolaLMSContext);
+
+  useEffect(() => {
+    fetchOrders();
+  }, []);
+
+  const handleDownloadInvoice = useCallback((id: number) => {
+    fetchOrderInvoice(id)
+      .then((response) => {
+        const url = `data:application/pdf;base64,${response}`;
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", `InvoiceTitle ${id}.pdf`);
+
+        document.body.appendChild(link);
+
+        link.click();
+
+        link && link.parentNode && link.parentNode.removeChild(link);
+      })
+      .catch((err) => {
+        if (err) {
+          console.log(err);
+        }
+      });
+  }, []);
+
+  return (
+    <div>
+      {order.list &&
+        order.list.data.map((item) => (
+          <div>
+            <div className="name-container">
+              {item?.items?.map((product: API.CartItem, index) => (
+                <div key={index}>
+                  <strong>{product?.product?.name}</strong>
+                </div>
+              ))}
+              <div>{item.subtotal}</div>
+
+              <button onClick={() => handleDownloadInvoice(item.id)}>
+                download invoce
+              </button>
+            </div>
+          </div>
+        ))}
+    </div>
+  );
+};
+
+export default Orders;
+```
 
 ## Permissions
 
 - <a href="https://i.imgur.com/AoXsisJ.png">`view`</a> from `escolalms/cart` to get invoice pdf
-

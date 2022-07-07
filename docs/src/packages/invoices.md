@@ -145,7 +145,7 @@ This package does not listen for any events.
 
 ### Admin panel
 
-...
+Admin panel automatically sends invoices to the customer's e-mail address.
 
 ### Front Application
 

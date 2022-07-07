@@ -214,6 +214,8 @@ const Orders = () => {
 export default Orders;
 ```
 
+In order to transfer other invoice data, we do it during the payment in this endpoint. [swagger](https://escolalms.github.io/Cart/#/Cart/a9183308a576feb0f769f81a32d6cb21)
+
 ## Permissions
 
 - <a href="https://i.imgur.com/AoXsisJ.png">`view`</a> from `escolalms/cart` to get invoice pdf

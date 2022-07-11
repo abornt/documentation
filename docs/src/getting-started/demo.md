@@ -43,13 +43,13 @@ Staging demo is build from source codes, latest `main` branch on `API`, `admin` 
 
 - [https://demo-stage.escolalms.com/](https://demo-stage.escolalms.com/)
 
-You can create you're own account or use one `student@escolalms.com` and password `secret`
+You can create you're own account or use one `student@escola-lms.com` and password `secret`
 
 ### Admin Demo
 
 - [https://admin-stage.escolalms.com/](https://admin-stage.escolalms.com/)
 
-Use the credentials `admin@escolalms.com` and password `secret`
+Use the credentials `admin@escola-lms.com` and password `secret`
 
 ### Mailing
 

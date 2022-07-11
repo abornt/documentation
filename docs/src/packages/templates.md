@@ -43,7 +43,6 @@ To register Event-Channel-Variable set, `Template::register($eventClass, $channe
 This package has no Channels or Variables defined, everything should be created in separate packages.
 
 - [Templates-Email](https://github.com/EscolaLMS/Templates-Email)
-- [Templates-Certificates](https://github.com/EscolaLMS/Templates-Certificates)
 - [Templates-Pdf](https://github.com/EscolaLMS/Templates-Pdf)
 
 ### Event Wrapper

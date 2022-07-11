@@ -261,11 +261,6 @@ module.exports = {
             ["templates", "Templates."],
 
             [
-              "templates-certificates",
-              "Templates-Certificates. Editing certificate templates",
-            ],
-
-            [
               "templates-email",
               "Templates-Email. Notification management with custom mjml templates.",
             ],

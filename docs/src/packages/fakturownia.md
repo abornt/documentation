@@ -20,6 +20,7 @@ This package is used to add invoices to Fakturownia after catch dispatched event
 - `composer require escolalms/questionnaire`
 - `php artisan migrate`
 - Create file `.env` and set to your account in <a href="https://fakturownia.pl" target="_blank">Fakturownia</a>
+
 ```
 FAKTUROWNIA_HOST=
 FAKTUROWNIA_TOKEN=
@@ -30,7 +31,6 @@ FAKTUROWNIA_TOKEN=
 Add table `fakturownia_orders` and relation to table `order` from packed `escolalms/cart`
 
 ## Example or Tutorial
-
 
 ## Endpoints
 
@@ -52,13 +52,7 @@ This package does not dispatch any events.
 
 ## How to use this on frontend.
 
-### Admin panel
-
-...
-
-### Front Application
-
-...
+Fakturownia is a package similar in operation to [invoices](http://docs.wellms.io/packages/invoices.html), but is targeted at the Polish market. The implementation on the front-end is the same as for the [invoices package](http://docs.wellms.io/packages/invoices.html#how-to-use-this-on-frontend).
 
 ## Permissions
 

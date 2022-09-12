@@ -71,6 +71,10 @@ module.exports = {
         text: "External Links",
         items: [
           {
+            text: "Road map & Freature Requests",
+            link: "https://wellms.canny.io/"
+          },
+          {
             text: "Github main page",
             link: "https://github.com/EscolaLMS",
           },

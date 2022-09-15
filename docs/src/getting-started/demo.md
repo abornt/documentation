@@ -40,9 +40,9 @@ This is development demo, from the most recent code. It is in `develop` mode, so
 
 | Application             | URL Link                             |
 |-------------------------|--------------------------------------|
-| Frontend Demo           | https://demo-stage.escolalms.com/    |
-| Admin Demo              | https://admin-stage.escolalms.com/   |
-| All mails will be here  | https://mailhog-stage.escolalms.com/ |
+| Frontend Demo           | [https://demo-stage.escolalms.com/](https://demo-stage.escolalms.com/)    |
+| Admin Demo              | [https://admin-stage.escolalms.com/](https://admin-stage.escolalms.com/)   |
+| All mails will be here  | [https://mailhog-stage.escolalms.com/](https://mailhog-stage.escolalms.com/) |
 
 ## Stable demo
 
@@ -50,6 +50,6 @@ The stable demo is built from [Docker images](https://hub.docker.com/search?q=es
 
 | Application             | URL Link                             |
 |-------------------------|--------------------------------------|
-| Frontend Demo           | https://demo.escolalms.com/    |
-| Admin Demo              | https://admin.escolalms.com/   |
-| All mails will be here  | https://mailhog.escolalms.com/ |
+| Frontend Demo           | [https://demo.escolalms.com/](https://demo.escolalms.com/)    |
+| Admin Demo              | [https://admin.escolalms.com/](https://admin.escolalms.com/)   |
+| All mails will be here  | [https://mailhog.escolalms.com/](https://mailhog.escolalms.com/) |

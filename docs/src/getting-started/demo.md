@@ -33,7 +33,17 @@ All emails are not actually sent. You need to visit the demo (due to the securit
 Whenever an app or admin panel says that email has been sent, do not check your mailbox
 **All emails will be avaiable in [MailHog](https://github.com/mailhog/MailHog) service**, links below 
 
-## Staging demo
+## Production demo
+
+The stable demo is built from [Docker images](https://hub.docker.com/search?q=escolalms). It is a production demo, therefore it should be faster and more stable than a staging demo. This app is built from [Create-LMS-App](https://github.com/EscolaLMS/Create-LMS-App)
+
+| Application             | URL Link                             |
+|-------------------------|--------------------------------------|
+| Frontend Demo           | [https://demo.escolalms.com/](https://demo.escolalms.com/)    |
+| Admin Demo              | [https://admin.escolalms.com/](https://admin.escolalms.com/)   |
+| All mails will be here  | [https://mailhog.escolalms.com/](https://mailhog.escolalms.com/) |
+
+## Development demo
 
 Staging demo is build from source codes, latest `main` branch on `API`, `admin` and `Front` repositories.
 This is development demo, from the most recent code. It is in `develop` mode, so it might be a bit slower than the production demo. 
@@ -44,12 +54,3 @@ This is development demo, from the most recent code. It is in `develop` mode, so
 | Admin Demo              | [https://admin-stage.escolalms.com/](https://admin-stage.escolalms.com/)   |
 | All mails will be here  | [https://mailhog-stage.escolalms.com/](https://mailhog-stage.escolalms.com/) |
 
-## Stable demo
-
-The stable demo is built from [Docker images](https://hub.docker.com/search?q=escolalms). It is a production demo, therefore it should be faster and more stable than a staging demo. This app is built from [Create-LMS-App](https://github.com/EscolaLMS/Create-LMS-App)
-
-| Application             | URL Link                             |
-|-------------------------|--------------------------------------|
-| Frontend Demo           | [https://demo.escolalms.com/](https://demo.escolalms.com/)    |
-| Admin Demo              | [https://admin.escolalms.com/](https://admin.escolalms.com/)   |
-| All mails will be here  | [https://mailhog.escolalms.com/](https://mailhog.escolalms.com/) |

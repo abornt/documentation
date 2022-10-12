@@ -43,14 +43,5 @@ The stable demo is built from [Docker images](https://hub.docker.com/search?q=es
 | Admin Demo              | [https://admin.escolalms.com/](https://admin.escolalms.com/)   |
 | All mails will be here  | [https://mailhog.escolalms.com/](https://mailhog.escolalms.com/) |
 
-## Development demo
 
-Staging demo is build from source codes, latest `main` branch on `API`, `admin` and `Front` repositories.
-This is development demo, from the most recent code. It is in `develop` mode, so it might be a bit slower than the production demo. 
-
-| Application             | URL Link                             |
-|-------------------------|--------------------------------------|
-| Frontend Demo           | [https://demo-stage.escolalms.com/](https://demo-stage.escolalms.com/)    |
-| Admin Demo              | [https://admin-stage.escolalms.com/](https://admin-stage.escolalms.com/)   |
-| All mails will be here  | [https://mailhog-stage.escolalms.com/](https://mailhog-stage.escolalms.com/) |
 

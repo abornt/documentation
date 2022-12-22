@@ -1,6 +1,6 @@
 # React Development
 
-Below are examples how one can develop frontend LMS application using Reacy
+Below are examples how one can develop frontend LMS application using React
 
 ## Extending demo
 
